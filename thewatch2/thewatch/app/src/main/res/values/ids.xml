@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextNewEmail" type="id" />
+    <item name="buttonAddNewEmail" type="id" />
+    <item name="listViewContacts" type="id" />
+    <item name="buttonDeleteSelected" type="id" />
+</resources>

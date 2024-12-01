@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <!-- Input field for adding a new email -->
+        <EditText
+            android:id="@+id/editTextNewEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter email address" />
+
+        <!-- Button to add new email -->
+        <Button
+            android:id="@+id/buttonAddNewEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add New Email" />
+
+        <!-- List of saved contacts -->
+        <ListView
+            android:id="@+id/listViewContacts"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:choiceMode="multipleChoice" />
+
+        <!-- Button to delete selected contacts -->
+        <Button
+            android:id="@+id/buttonDeleteSelected"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete Selected" />
+
+</LinearLayout>

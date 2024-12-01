@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "972498683362",
+    "project_id": "thewatch-df543",
+    "storage_bucket": "thewatch-df543.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972498683362:android:0d46937e18be07d04925bb",
+        "android_client_info": {
+          "package_name": "com.first.thewatch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdN3sW5DMkD7yA218ElAI7HvFdaPALQAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

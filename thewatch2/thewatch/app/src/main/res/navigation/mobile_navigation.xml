@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.first.thewatch.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_addcontact"
+        android:name="com.first.thewatch.ui.home.AddContactFragment"
+        android:label="ADD/DELETE CONTACT"
+        tools:layout="@layout/fragment_add_contact"
+    />
+
+    <fragment
+        android:id="@+id/nav_fcmtoken"
+        android:name="com.first.thewatch.ui.home.FCMTokenFragment"
+        android:label="GENERATE FCM TOKEN"
+        tools:layout="@layout/fragment_fcm_token"
+        />
+
+    <fragment
+        android:id="@+id/nav_notification"
+        android:name="com.first.thewatch.ui.home.NotificationFragment"
+        android:label="SEND NOTIFICATION"
+        tools:layout="@layout/fragment_notification"
+        />
+</navigation>

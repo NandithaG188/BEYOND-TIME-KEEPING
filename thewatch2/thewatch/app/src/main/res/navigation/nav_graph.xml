@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+        <fragment
+            android:id="@+id/nav_home"
+            android:name="com.first.thewatch.ui.home.HomeFragment"
+            android:label="fragment_home"
+            tools:layout="@layout/fragment_home" >
+                <action
+                    android:id="@+id/action_nav_home_to_nav_fcmtoken"
+                    app:destination="@id/nav_fcmtoken" />
+                <action
+                    android:id="@+id/action_nav_home_to_nav_addcontact"
+                    app:destination="@id/nav_addcontact" />
+                <action
+                    android:id="@+id/action_nav_home_to_nav_notification"
+                    app:destination="@id/nav_notification" />
+        </fragment>
+
+        <fragment
+            android:id="@+id/nav_addcontact"
+            android:name="com.first.thewatch.ui.home.AddContactFragment"
+            android:label="fragment_add_contact"
+            tools:layout="@layout/fragment_add_contact" >
+                <action
+                    android:id="@+id/action_nav_addcontact_to_nav_home"
+                    app:destination="@id/nav_home" />
+                <action
+                    android:id="@+id/action_nav_addcontact_to_nav_fcmtoken"
+                    app:destination="@id/nav_fcmtoken" />
+                <action
+                    android:id="@+id/action_nav_addcontact_to_nav_notification"
+                    app:destination="@id/nav_notification" />
+                <action
+                    android:id="@+id/action_nav_addcontact_to_nav_notification2"
+                    app:destination="@id/nav_notification" />
+                <action
+                    android:id="@+id/action_nav_addcontact_to_nav_notification3"
+                    app:destination="@id/nav_notification" />
+        </fragment>
+
+        <fragment
+            android:id="@+id/nav_fcmtoken"
+            android:name="com.first.thewatch.ui.home.FCMTokenFragment"
+            android:label="fragment_fcm_token"
+            tools:layout="@layout/fragment_fcm_token" >
+                <action
+                    android:id="@+id/action_nav_fcmtoken_to_nav_home"
+                    app:destination="@id/nav_home" />
+                <action
+                    android:id="@+id/action_nav_fcmtoken_to_nav_addcontact"
+                    app:destination="@id/nav_addcontact" />
+                <action
+                    android:id="@+id/action_nav_fcmtoken_to_nav_notification"
+                    app:destination="@id/nav_notification" />
+        </fragment>
+
+        <fragment
+            android:id="@+id/nav_notification"
+            android:name="com.first.thewatch.ui.home.NotificationFragment"
+            android:label="fragment_notification"
+            tools:layout="@layout/fragment_notification" >
+                <action
+                    android:id="@+id/action_nav_notification_to_nav_home"
+                    app:destination="@id/nav_home" />
+                <action
+                    android:id="@+id/action_nav_notification_to_nav_addcontact"
+                    app:destination="@id/nav_addcontact" />
+                <action
+                    android:id="@+id/action_nav_notification_to_nav_fcmtoken"
+                    app:destination="@id/nav_fcmtoken" />
+        </fragment>
+
+
+
+</navigation>
