@@ -22,3 +22,5 @@ Mobile Development: Android Studio, Flutter
 Bluetooth Communication: Bluetooth API for smartwatch pairing
 
 Notification System: Firebase Cloud Messaging 
+
+view the project presentation here---> https://www.canva.com/design/DAGEiaaenzk/i360IIpFXhbpOZLwq892Bw/view?utm_content=DAGEiaaenzk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5fb2034d2f
